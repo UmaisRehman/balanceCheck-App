@@ -1,7 +1,6 @@
 // App.js
 import React, { useState } from 'react';
-import Navbar from './component/navbar';
-
+import Navbar from './component/Navbar'
 
 const App = () => {
   const [amount, setAmount] = useState('');
@@ -14,6 +13,23 @@ const App = () => {
   const [cashInAmount, setCashInAmount] = useState(0);
   const [cashOutAmount, setCashOutAmount] = useState(0);
   const [balance, setBalance] = useState(0);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
